@@ -1,0 +1,361 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "EB Garamond", serif;
+  background: var(--bgc, #111);
+  text-size-adjust: auto;
+}
+.wrapper {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 1500px;
+  background-color: #111;
+}
+
+.header {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: url(../img/bgc.png) no-repeat center top;
+}
+
+.main-menu {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main-menu-list1 {
+  color: var(--white, #fff);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  text-decoration: none;
+}
+
+.main-menu-list2 {
+  color: var(--white, #fff);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-left: 0px;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  text-decoration: none;
+}
+.main-menu-list3 {
+  color: var(--white, #fff);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-left: 0px;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  text-decoration: none;
+}
+.inst-icon {
+  width: 1.5%;
+  margin-right: 4%;
+}
+
+.omega-sign {
+  width: 2%;
+  height: 2%;
+  margin-right: 8%;
+}
+
+.main-menu-list1:hover {
+  color: var(--accent, #cdaa7d);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration: underline;
+}
+.main-menu-list2:hover {
+  color: var(--accent, #cdaa7d);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration: underline;
+}
+.main-menu-list3:hover {
+  color: var(--accent, #cdaa7d);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration: underline;
+}
+.underline-menu {
+  width: 80%;
+  height: 1px;
+  opacity: 20%;
+  background: #fff;
+}
+
+.menu-name-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Garamond;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 0;
+  margin-top: 12%;
+}
+
+.scroll-sign {
+  color: var(--white, #fff);
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 12%;
+  padding-bottom: 4%;
+}
+.scroll-sign-text {
+  margin-left: 1%;
+}
+
+.main-content {
+  margin-top: 6%;
+  margin-left: 12%;
+  margin-right: 12%;
+  box-sizing: border-box;
+}
+
+.quote-icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 4%;
+}
+
+.citation-text {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Cormorant Garamond";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.services {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.services > div > img {
+  width: 85%;
+  box-shadow: 20px -20px 0px 1px #111, 20px -20px 0px 2px #cdaa7d;
+  margin-right: 5%;
+}
+
+.services-text {
+  color: var(--white, #fff);
+  font-family: Garamond;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 2%;
+  margin-right: 8%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.partners {
+  padding-left: 10%;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+.partner-icon {
+  margin-left: 0;
+  margin-right: 12%;
+  opacity: 50%;
+}
+
+.work-text {
+  text-align: center;
+  color: var(--white, #fff);
+  font-family: Garamond;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 0;
+  padding-bottom: 0%;
+}
+
+/* Slider */
+
+.radio-slider {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-right: 10%;
+}
+
+.button-slide {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Cormorant Garamond";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.button-slide:hover {
+  color: var(--accent, #CDAA7D);
+  text-decoration: underline;
+}
+
+.photo-gallery {
+  padding-top: 2%;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1%;
+}
+
+.photo-gallery > div > img {
+  width: 100%;
+}
+
+#check1:checked ~ .container .photo-gallery {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+}
+
+#check2:checked ~ .container .photo-gallery .make-up {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+}
+
+#check2:checked ~ .container .photo-gallery .hair,
+#check2:checked ~ .container .photo-gallery .manicure {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+}
+
+#check3:checked ~ .container .photo-gallery .hair {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+}
+
+#check3:checked ~ .container .photo-gallery .make-up,
+#check3:checked ~ .container .photo-gallery .manicure {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+}
+
+#check4:checked ~ .container .photo-gallery .manicure {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+}
+
+#check4:checked ~ .container .photo-gallery .make-up,
+#check4:checked ~ .container .photo-gallery .hair {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+}
+/* footer */
+
+footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts {
+margin-left: 10%;
+}
+
+.contacts-name {
+  color: var(--white, #FFF);
+font-family: Garamond;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+margin-top: 0;
+}
+
+.contact-content {
+  color: var(--white, #FFF);
+  opacity: 80%;
+font-family: Cormorant Garamond;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+margin-left: 0;
+}
+
+.inst-icon-footer {
+  width: 24px;
+}
+
+.omega-sign-2 {
+  width: 40px;
+}
+
+.copyright {
+  color: var(--white, #FFF);
+text-align: center;
+font-family: Cormorant Garamond;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+opacity: 30%;
+}

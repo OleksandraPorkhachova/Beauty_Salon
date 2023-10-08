@@ -1,0 +1,235 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "EB Garamond", serif;
+  background: var(--bgc, #111);
+  text-size-adjust: auto;
+}
+.wrapper {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 1500px;
+  background-color: #111;
+}
+
+.header {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main-menu {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main-menu-list1 {
+  color: var(--white, #fff);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  text-decoration: none;
+}
+
+.main-menu-list2 {
+  color: var(--white, #fff);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-left: 0px;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  text-decoration: none;
+}
+.main-menu-list3 {
+  color: var(--white, #fff);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-left: 0px;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  text-decoration: none;
+}
+.inst-icon {
+  width: 1.5%;
+  margin-right: 4%;
+}
+
+.omega-sign {
+  width: 2%;
+  height: 2%;
+  margin-right: 8%;
+}
+
+.main-menu-list1:hover {
+  color: var(--accent, #cdaa7d);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration: underline;
+}
+.main-menu-list2:hover {
+  color: var(--accent, #cdaa7d);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration: underline;
+}
+.main-menu-list3:hover {
+  color: var(--accent, #cdaa7d);
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration: underline;
+}
+.underline-menu {
+  width: 80%;
+  height: 1px;
+  opacity: 20%;
+  background: #fff;
+}
+
+.feedback-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Garamond;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.feedback {
+  padding: 1% 0;
+  color: #fbfbfb;
+  text-align: center;
+}
+
+.inner {
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial {
+  background-color: #2c2c2c;
+  padding: 3%;
+  border-radius: 5%;
+}
+
+.testimonial > img {
+  width: 50%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.name {
+  color: var(--accent, #fdfdfd);
+  font-family: "Cormorant Garamond";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.feedback-text {
+  color: var(--accent, #fdfdfd);
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+/* Footer */
+footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts {
+  margin-left: 10%;
+}
+
+.contacts-name {
+  color: var(--white, #fff);
+  font-family: Garamond;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 0;
+}
+
+.contact-content {
+  color: var(--white, #fff);
+  opacity: 80%;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-left: 0;
+}
+
+.inst-icon-footer {
+  width: 24px;
+}
+
+.omega-sign-2 {
+  width: 40px;
+}
+
+.copyright {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  opacity: 30%;
+}
